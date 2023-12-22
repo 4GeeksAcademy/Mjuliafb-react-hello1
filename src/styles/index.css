@@ -10,3 +10,13 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.footer {
+    background-color: rgb(73, 10, 10);
+    color: white;
+    height: 50px;
+    align-items: center;
+}
+
+body {
+    width: 1440px;
+}

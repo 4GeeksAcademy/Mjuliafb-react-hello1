@@ -4,9 +4,9 @@ import { Cards } from "./Cards";
 
 export const Content = () => {
     return (
-        <div>
+        <div className="container justify-items-center">
             <Jumbotron />
-            <Cards/>
+            <Cards />
         </div>
     )
 };
