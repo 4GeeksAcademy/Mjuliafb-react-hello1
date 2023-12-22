@@ -11,25 +11,29 @@ export const Cards = () => {
             imgSrc: comida,
             title: "Comer 🍾",
             text: "With supporting text below as a natural lead-in to additional content 1.",
-            buttonText: "Restaurantes"
+            buttonText: "Restaurantes",
+            link: "https://www.tripadvisor.es/Restaurants-g187514-c10715-Madrid.html"
         },
         {
             imgSrc: decorar,
             title: "Decorar 🎄",
             text: "With supporting text below as a natural lead-in to additional content 2.",
-            buttonText: "Ideas DIY"
+            buttonText: "Ideas DIY",
+            link: "https://www.pinterest.es/search/pins/?q=ideas%20DIY%20navidad&rs=typed"
         },
         {
             imgSrc: regalos,
             title: "Regalar 🎁",
             text: "With supporting text below as a natural lead-in to additional content 2.",
-            buttonText: "Mi lista Tech"
+            buttonText: "Mi lista Tech",
+            link: "https://www.amazon.es/s?k=logitech+mx&__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2P0N8RRGB48NN&sprefix=logitech+mx%2Caps%2C156&ref=nb_sb_noss_1"
         },
         {
             imgSrc: musica,
             title: "Achirrin chirra 🎵",
             text: "With supporting text below as a natural lead-in to additional content 2.",
-            buttonText: "Canta conmigo"
+            buttonText: "Canta conmigo",
+            link: "https://open.spotify.com/playlist/31O6T30ba0HzzdvcrlWH9Y"
         },
     ];
 
@@ -43,7 +47,7 @@ export const Cards = () => {
                             <div className="card-body">
                                 <h5 className="card-title">{card.title}</h5>
                                 <p className="card-text">{card.text}</p>
-                                <a href="#" className="btn btn-primary">
+                                <a href={card.link} target="_blank" className="btn btn-primary">
                                     {card.buttonText}
                                 </a>
                             </div>
