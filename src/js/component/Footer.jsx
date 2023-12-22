@@ -6,7 +6,7 @@ export const Footer = () => {
     return (
         <div className="footer d-flex justify-content-center" id="footer">
             &copy; {currentYear} {""}
-            <span> Made with 🦩 by {""}
+            <span> {""} Made with 🦩 by {""}
                 <a href="hhttps://www.linkedin.com/in/mjuliafb/">MJ</a>
             </span>
         </div>
