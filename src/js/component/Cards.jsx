@@ -41,9 +41,9 @@ export const Cards = () => {
         <div className="container text-center" id="cards">
             <div className="row">
                 {cardData.map((card, index) => (
-                    <div key={index} className="col-md-6 col-lg-3 mb-4 p-0">
+                    <div key={index} className="contentCard col-md-6 col-lg-3 mb-4">
                         <div className="card">
-                            <img src={card.imgSrc} className="card-img-top img-responsive" alt="..." />
+                            <img src={card.imgSrc} className=" card-img-top img-responsive" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">{card.title}</h5>
                                 <p className="card-text">{card.text}</p>

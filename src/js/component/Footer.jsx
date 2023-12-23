@@ -7,7 +7,7 @@ export const Footer = () => {
         <div className="footer d-flex justify-content-center" id="footer">
             &copy; {currentYear} {""}
             <span> {""} Made with 🦩 by {""}
-                <a href="hhttps://www.linkedin.com/in/mjuliafb/">MJ</a>
+                <a href="https://www.linkedin.com/in/mjuliafb/">MJ</a>
             </span>
         </div>
     );
