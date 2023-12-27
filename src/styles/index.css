@@ -15,3 +15,7 @@
     height: 50px;
     align-items: center;
 }
+
+.nav-link {
+    text-align: end;
+}

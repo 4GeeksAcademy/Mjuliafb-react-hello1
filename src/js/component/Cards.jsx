@@ -30,7 +30,7 @@ export const Cards = () => {
         },
         {
             imgSrc: musica,
-            title: "Achirrin chirra 🎵",
+            title: "A chirrin chirra 🎵",
             text: "With supporting text below as a natural lead-in to additional content 2.",
             buttonText: "Canta conmigo",
             link: "https://open.spotify.com/playlist/31O6T30ba0HzzdvcrlWH9Y"
